@@ -118,7 +118,7 @@ def get_tweet_location():
 
 api = get_authorization()
 #input('Please enter the User Name you want to search')
-userId = 'pavankuk'
+userId = '<twitter_id>'
 user_info = get_userInfo(api,userId)
 print(user_info)
 
